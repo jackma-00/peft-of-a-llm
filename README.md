@@ -29,7 +29,7 @@ Use the following notebooks for pre-deployment testing:
 
 ## 🤖 LoRA Model Chatbot  
 
-The chatbot app, built with **Gradio** and deployed on **HuggingFace Spaces**, is in the [LoraModel folder](./LoraModel/).  
+The chatbot app, built with **Gradio** and deployed on **HuggingFace Spaces**, is in the [ChatBot folder](./ChatBot/).  
 
 ### 🔍 Features:  
 1. **Interactive Chat History**: Keeps track of your conversation for seamless flow.  
@@ -41,7 +41,7 @@ The chatbot app, built with **Gradio** and deployed on **HuggingFace Spaces**, i
 ### 💡 How It Works:  
 - The chatbot leverages the **fine-tuned LoRA model**: `jackma-00/lora_model_1b`.  
 - It integrates **daily market data** for tickers like `SPY`, `DIA`, `QQQ`, `IWM`, and `VXX` via the **Polygon API**.  
-- Check out the file [daily_tickers.py](./LoraModel/daily_tickers.py) for implementation details.  
+- Check out the file [daily_tickers.py](./ChatBot/daily_tickers.py) for implementation details.  
 
 ### 🖼️ Preview:  
 Here’s what the chatbot looks like in action:  
